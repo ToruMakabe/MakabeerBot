@@ -1,5 +1,14 @@
 {
-  "name": "documentdb",
-  "version": "1.7.0",
-  "description": ""
+  "name": "fb-message-callback",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ToruMakabe",
+  "license": "MIT",
+  "dependencies": {
+    "documentdb": "^1.7.0"
+  }
 }
