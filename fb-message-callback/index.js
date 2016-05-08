@@ -1,5 +1,5 @@
 var https = require('https');
-var documentClient = require("documentdb").DocumentClient;
+var documentClient = require('documentdb').DocumentClient;
 const databaseUrl = "dbs/" + process.env.APPSETTING_DOCDB_DB_ID;
 
 var client = new documentClient(process.env.APPSETTING_DOCDB_ENDPOINT, { "masterKey": process.env.APPSETTING_DOCDB_AUTHKEY });
